@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/colorBackground"
     tools:background="@color/colorBackground">
 
     <RelativeLayout
@@ -21,6 +22,116 @@
             android:textColor="#ffffff"
             android:textSize="18sp" />
     </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="106dp"
+        android:orientation="horizontal"
+        android:background="@color/colorBackground"
+        tools:background="@color/colorBackground">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:background="@color/colorBackground">
+            
+            <ImageView
+                android:id="@+id/a1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="40dp"
+                android:src="@drawable/a1"/>
+
+            <TextView
+                android:layout_width="28dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="66dp"
+                android:layout_marginBottom="20dp"
+                android:text="粉丝"
+                android:textColor="#e6ffffff" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:background="@color/colorBackground">
+
+            <ImageView
+                android:id="@+id/a2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="51.5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="40dp"
+                android:src="@drawable/a2"/>
+
+            <TextView
+                android:layout_width="14dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="65.5dp"
+                android:layout_marginTop="66dp"
+                android:layout_marginBottom="20dp"
+                android:text="赞"
+                android:textColor="#e6ffffff" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:background="@color/colorBackground">
+
+            <ImageView
+                android:id="@+id/a3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="52dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="40dp"
+                android:src="@drawable/a3"/>
+
+            <TextView
+                android:layout_width="28dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="60.5dp"
+                android:layout_marginTop="66dp"
+                android:layout_marginBottom="20dp"
+                android:text="我的"
+                android:textColor="#e6ffffff" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:background="@color/colorBackground">
+
+            <ImageView
+                android:id="@+id/a4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="51.5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="40dp"
+                android:src="@drawable/a4" />
+
+            <TextView
+                android:layout_width="28dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="58.5dp"
+                android:layout_marginTop="66dp"
+                android:layout_marginBottom="20dp"
+                android:text="评论"
+                android:textColor="#e6ffffff" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rv_list"
