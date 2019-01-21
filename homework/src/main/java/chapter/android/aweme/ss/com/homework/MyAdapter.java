@@ -110,6 +110,8 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder>{
             this.tv_time = (TextView) itemView.findViewById(R.id.tv_time);
             this.iv_avatar = (CircleImageView) itemView.findViewById(R.id.iv_avatar);
             this.isofficial = (ImageView) itemView.findViewById(R.id.robot_notice);
+//            注意要把itemView.setOnClickListener(this)加进来，实现点击
+            itemView.setOnClickListener(this);
         }
 
 //相当于给内容赋值
